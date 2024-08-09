@@ -34,7 +34,7 @@
             style="@style/OptionItem"
             android:background="@drawable/selector_option_item"
             app:show_arrow_indicator="true"
-            app:title="关于1.1.6" />
+            app:title="关于" />
 
         <cn.wildfire.chat.kit.widget.OptionItemView
             android:id="@+id/diagnoseOptionItemView"

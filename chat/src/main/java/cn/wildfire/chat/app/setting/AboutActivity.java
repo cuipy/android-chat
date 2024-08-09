@@ -43,7 +43,7 @@ public class AboutActivity extends WfcBaseActivity {
         try {
             PackageInfo packageInfo = packageManager.getPackageInfo(getPackageName(), PackageManager.GET_CONFIGURATIONS);
             String info = packageInfo.packageName + "\n"
-                + packageInfo.versionCode + "-" + packageInfo.versionName + "\n"
+                + packageInfo.versionCode + "  " + packageInfo.versionName + "\n"
                 + ChatManager.Instance().getProtoRevision() + "\n"
                 + Config.IM_SERVER_HOST + "\n"
                 + AppService.APP_SERVER_ADDRESS + "\n";
