@@ -88,7 +88,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="cn.wildfire.chat.app.setting.AboutActivity"
-            android:label="关于1.1.6"
+            android:label="关于"
             android:screenOrientation="portrait" />
 
         <activity

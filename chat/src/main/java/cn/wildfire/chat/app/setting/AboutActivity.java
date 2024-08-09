@@ -65,7 +65,7 @@ public class AboutActivity extends WfcBaseActivity {
     }
 
     public void intro() {
-        WfcWebViewActivity.loadUrl(this, "*野火IM功能介绍*", "https://docs.wildfirechat.cn/");
+        WfcWebViewActivity.loadUrl(this, "野火IM的功能介绍", "https://docs.wildfirechat.cn/");
     }
 
     public void agreement() {
